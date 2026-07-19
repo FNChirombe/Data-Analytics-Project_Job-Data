@@ -321,3 +321,4 @@ LIMIT 25;
 - High-paying remote opportunities were available year-round.
 
 This project gave me a complete, hands-on experience of what it’s like to work as a data analyst — from querying real job market data to presenting insights in an engaging way. It strengthened both my technical skills and my ability to communicate findings clearly, which I know will be valuable in my future work.
+
