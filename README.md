@@ -46,6 +46,26 @@ To identify the highest-paying jobs, I filtered data analyst roles by average ye
     LIMIT 10;
 ```
 #### Findings
+
+## 📊 Top 10 Highest-Paying Remote Data Analyst Jobs (2023)
+
+This table shows the **10 highest-paying fully remote Data Analyst** roles (including Director and Principal-level positions) posted in 2023.
+
+| Job ID   | Job Title                                      | Location | Schedule   | Salary (USD) | Posted Date          | Company                                  |
+|----------|------------------------------------------------|----------|------------|--------------|----------------------|------------------------------------------|
+| 226942   | Data Analyst                                   | Anywhere | Full-time  | 650,000      | 2023-02-20           | Mantys                                   |
+| 547382   | Director of Analytics                          | Anywhere | Full-time  | 336,500      | 2023-08-23           | Meta                                     |
+| 552322   | Associate Director - Data Insights             | Anywhere | Full-time  | 255,830      | 2023-06-18           | AT&T                                     |
+| 99305    | Data Analyst, Marketing                        | Anywhere | Full-time  | 232,423      | 2023-12-05           | Pinterest Job Advertisements             |
+| 1021647  | Data Analyst (Hybrid/Remote)                   | Anywhere | Full-time  | 217,000      | 2023-01-17           | Uclahealthcareers                        |
+| 168310   | Principal Data Analyst (Remote)                | Anywhere | Full-time  | 205,000      | 2023-08-09           | SmartAsset                               |
+| 731368   | Director, Data Analyst - HYBRID                | Anywhere | Full-time  | 189,309      | 2023-12-07           | Inclusively                              |
+| 310660   | Principal Data Analyst, AV Performance Analysis| Anywhere | Full-time  | 189,000      | 2023-01-05           | Motional                                 |
+| 1749593  | Principal Data Analyst                         | Anywhere | Full-time  | 186,000      | 2023-07-11           | SmartAsset                               |
+| 387860   | ERM Data Analyst                               | Anywhere | Full-time  | 184,000      | 2023-06-09           | Get It Recruit - Information Technology  |
+
+> **Note**: All roles are 100% remote (`Anywhere`) and full-time. Salaries represent yearly averages.
+
 Senior leadership roles (Director, Principal, Associate Director) dominate the highest salaries, accounting for 7 of the 10 top remote positions.
 SmartAsset, Meta, and AT&T lead in high-paying remote hires, highlighting strong demand from fintech and major tech/telecom companies.
 Top remote Data Analyst roles were posted throughout 2023 with no clear seasonal pattern, offering year-round opportunities.
@@ -192,8 +212,20 @@ LIMIT 25;
 <img width="1950" height="1125" alt="skills_bubble_animation" src="https://github.com/user-attachments/assets/c9f79b69-81c1-472e-8875-cb7d6ead12b8" />
 
 
-
-
 # - What I learned
+
+- I got much better at writing complex SQL queries using joins and CTEs to combine job postings with skill data, which helped me pull out more useful insights from the database.
+- I improved at turning raw numbers (like salaries and skill counts) into clear, interactive visualisations that actually tell a story people can understand.
+- I learned how to connect different parts of an analysis — from finding in-demand skills to linking them with salaries — into one smooth project instead of doing everything in isolation.
+
 # - Conclusions
 
+## Insights
+
+-Senior/leadership roles dominate the highest salaries.
+- SQL + Python form the essential core skill set.
+- Cloud skills (Snowflake, Azure, AWS) deliver clear salary premiums.
+- DevOps tools (GitLab, Jira, Bitbucket) appear in top-paying roles.
+- High-paying remote opportunities were available year-round.
+
+This project gave me a complete, hands-on experience of what it’s like to work as a data analyst — from querying real job market data to presenting insights in an engaging way. It strengthened both my technical skills and my ability to communicate findings clearly, which I know will be valuable in my future work.
