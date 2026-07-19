@@ -295,11 +295,12 @@ LIMIT 25;
 | 61       | sql server     | 35           | 97,785.73        |
 | 9        | javascript     | 20           | 97,587.00        |
 
--Go, Confluence, Hadoop, Snowflake, and Azure are the skills linked to the highest average salaries for remote Data Analyst roles while maintaining solid demand.
--Cloud and data infrastructure skills (Snowflake, Azure, AWS, BigQuery, Redshift) consistently deliver above-average pay for remote positions.
--Core skills like Python, Tableau, and R appear far more frequently but are associated with slightly lower average salaries compared to specialised engineering tools.
+- Go, Confluence, Hadoop, Snowflake, and Azure are the skills linked to the highest average salaries for remote Data Analyst roles while maintaining solid demand.
+- Cloud and data infrastructure skills (Snowflake, Azure, AWS, BigQuery, Redshift) consistently deliver above-average pay for remote positions.
+- Core skills like Python, Tableau, and R appear far more frequently but are associated with slightly lower average salaries compared to specialised engineering tools.
 
 6. Visualisation (.GIF)
+   
 <img width="1950" height="1125" alt="skills_bubble_animation" src="https://github.com/user-attachments/assets/c9f79b69-81c1-472e-8875-cb7d6ead12b8" />
 
 
