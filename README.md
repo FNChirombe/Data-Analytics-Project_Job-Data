@@ -101,6 +101,24 @@ LIMIT 30;
 
 ```
 #### Insights
+
+## 🛠 Skills Required for Top-Paying Remote Data Analyst Jobs (2023)
+
+This table shows the key skills associated with the **highest-paying remote Data Analyst roles** (Director, Principal, and Senior-level positions).
+
+| Job ID   | Job Title                                      | Salary (USD) | Company                                  | Key Skills                                                                 |
+|----------|------------------------------------------------|--------------|------------------------------------------|----------------------------------------------------------------------------|
+| 552322   | Associate Director - Data Insights             | 255,830      | AT&T                                     | SQL, Python, R, Azure, Databricks, AWS, Pandas, PySpark, Jupyter, Excel, Tableau, Power BI, PowerPoint |
+| 99305    | Data Analyst, Marketing                        | 232,423      | Pinterest Job Advertisements             | SQL, Python, R, Hadoop, Tableau                                            |
+| 1021647  | Data Analyst (Hybrid/Remote)                   | 217,000      | Uclahealthcareers                        | SQL, Crystal, Oracle, Tableau, Flow                                        |
+| 168310   | Principal Data Analyst (Remote)                | 205,000      | SmartAsset                               | SQL, Python, Go, Snowflake, Pandas, NumPy, Excel, Tableau, GitLab          |
+| 731368   | Director, Data Analyst - HYBRID                | 189,309      | Inclusively                              | SQL, Python, Azure, AWS, Oracle, Snowflake, Tableau, Power BI, SAP, Jenkins, Bitbucket, Atlassian, Jira, Confluence |
+| 310660   | Principal Data Analyst, AV Performance Analysis| 189,000      | Motional                                 | SQL, Python, R, Git, Bitbucket, Atlassian, Jira, Confluence                |
+| 1749593  | Principal Data Analyst                         | 186,000      | SmartAsset                               | SQL, Python, Go, Snowflake, Pandas, NumPy, Excel, Tableau, GitLab          |
+| 387860   | ERM Data Analyst                               | 184,000      | Get It Recruit - Information Technology  | SQL, Python, R                                                             |
+
+> **Note**: Salaries are yearly averages. All roles are fully remote.
+
 Top-paying roles consistently require SQL + Python as core skills, paired with visualization tools (Tableau, Power BI) and cloud platforms (Azure, AWS, Snowflake, Databricks).
 Director and Principal-level positions demand broader stacks, including DevOps and collaboration tools such as Jenkins, Bitbucket, Jira, Confluence, and GitLab.
 Senior remote Data Analyst jobs in 2023 favored modern data engineering skills (PySpark, Pandas, NumPy, Go) alongside traditional analytics tools.
@@ -130,6 +148,17 @@ ORDER BY demand_count DESC
 LIMIT 5;
 ```
 #### Findings
+
+## 📈 Most In-Demand Skills for Remote Data Analyst Roles (2023)
+
+| Skill     | Demand Count |
+|-----------|--------------|
+| SQL       | 7,291        |
+| Excel     | 4,611        |
+| Python    | 4,330        |
+| Tableau   | 3,745        |
+| Power BI  | 2,609        |
+
 - SQL is the most in-demand skill for remote Data Analyst roles (7,291 mentions), followed by Excel, Python, Tableau, and Power BI.
 - The core remote Data Analyst tech stack in 2023 centers on SQL + Python combined with visualization tools (Tableau/Power BI).
 - Traditional tools like Excel still rank very high, showing that strong foundational skills remain essential even for high-paying remote positions.
@@ -154,6 +183,37 @@ ORDER BY
 LIMIT 25;
 ```
 #### Findings
+
+## 💰 Highest-Paying Skills for Data Analyst Roles (2023)
+
+| Skill          | Avg Salary (USD) |
+|----------------|------------------|
+| SVN            | 400,000.00       |
+| Solidity       | 179,000.00       |
+| Couchbase      | 160,515.00       |
+| DataRobot      | 155,485.50       |
+| Golang         | 155,000.00       |
+| MXNet          | 149,000.00       |
+| dplyr          | 147,633.33       |
+| VMware         | 147,500.00       |
+| Terraform      | 146,733.83       |
+| Twilio         | 138,500.00       |
+| GitLab         | 134,126.00       |
+| Kafka          | 129,999.16       |
+| Puppet         | 129,820.00       |
+| Keras          | 127,013.33       |
+| PyTorch        | 125,226.20       |
+| Perl           | 124,685.75       |
+| Ansible        | 124,370.00       |
+| Hugging Face   | 123,950.00       |
+| TensorFlow     | 120,646.83       |
+| Cassandra      | 118,406.68       |
+| Notion         | 118,091.67       |
+| Atlassian      | 117,965.60       |
+| Bitbucket      | 116,711.75       |
+| Airflow        | 116,387.26       |
+| Scala          | 115,479.53       |
+
 - Niche and emerging skills (SVN, Solidity, Couchbase, DataRobot, Golang) are associated with the highest average salaries for Data Analyst roles.
 - Modern data engineering and ML tools (Terraform, Kafka, PyTorch, TensorFlow, Airflow) command significantly higher compensation than traditional skills.
 - Top-paying skills often combine specialized technologies (version control, cloud, ML frameworks) with strong data infrastructure knowledge.
@@ -204,11 +264,41 @@ LIMIT 25;
 ```
 
 #### Findings
+
+## 📊 Skills Demand vs Average Salary (Remote Data Analyst Roles)
+
+| Skill ID | Skill          | Demand Count | Avg Salary (USD) |
+|----------|----------------|--------------|------------------|
+| 8        | go             | 27           | 115,319.89       |
+| 234      | confluence     | 11           | 114,209.91       |
+| 97       | hadoop         | 22           | 113,192.57       |
+| 80       | snowflake      | 37           | 112,947.97       |
+| 74       | azure          | 34           | 111,225.10       |
+| 77       | bigquery       | 13           | 109,653.85       |
+| 76       | aws            | 32           | 108,317.30       |
+| 4        | java           | 17           | 106,906.44       |
+| 194      | ssis           | 12           | 106,683.33       |
+| 233      | jira           | 20           | 104,917.90       |
+| 79       | oracle         | 37           | 104,533.70       |
+| 185      | looker         | 49           | 103,795.30       |
+| 2        | nosql          | 13           | 101,413.73       |
+| 1        | python         | 236          | 101,397.22       |
+| 5        | r              | 148          | 100,498.77       |
+| 78       | redshift       | 16           | 99,936.44        |
+| 187      | qlik           | 13           | 99,630.81        |
+| 182      | tableau        | 230          | 99,287.65        |
+| 197      | ssrs           | 14           | 99,171.43        |
+| 92       | spark          | 13           | 99,076.92        |
+| 13       | c++            | 11           | 98,958.23        |
+| 186      | sas            | 63           | 98,902.37        |
+| 7        | sas            | 63           | 98,902.37        |
+| 61       | sql server     | 35           | 97,785.73        |
+| 9        | javascript     | 20           | 97,587.00        |
 -Go, Confluence, Hadoop, Snowflake, and Azure are the skills linked to the highest average salaries for remote Data Analyst roles while maintaining solid demand.
 -Cloud and data infrastructure skills (Snowflake, Azure, AWS, BigQuery, Redshift) consistently deliver above-average pay for remote positions.
 -Core skills like Python, Tableau, and R appear far more frequently but are associated with slightly lower average salaries compared to specialised engineering tools.
 
-6. Visualisation
+6. Visualisation (.GIF)
 <img width="1950" height="1125" alt="skills_bubble_animation" src="https://github.com/user-attachments/assets/c9f79b69-81c1-472e-8875-cb7d6ead12b8" />
 
 
