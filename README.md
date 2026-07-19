@@ -45,8 +45,45 @@ To identify the highest-paying jobs, I filtered data analyst roles by average ye
     ORDER BY salary_year_avg DESC
     LIMIT 10;
 ```
+Findings
+Senior leadership roles (Director, Principal, Associate Director) dominate the highest salaries, accounting for 7 of the 10 top remote positions.
+SmartAsset, Meta, and AT&T lead in high-paying remote hires, highlighting strong demand from fintech and major tech/telecom companies.
+Top remote Data Analyst roles were posted throughout 2023 with no clear seasonal pattern, offering year-round opportunities.
+<img width="463" height="266" alt="image" src="https://github.com/user-attachments/assets/5cc525e6-ac87-41d9-8d9b-d31caf1939da" />
 
+### 2. Top-paying job skills
+This query first identifies the highest-paying remote Data Analyst jobs using a CTE, then joins the results with skill tables to return each job along with all its required skills, ordered by salary. The final output shows the top 30 skill rows across the highest-paid roles.
 
+```sql
+    WITH top_paying_jobs AS 
+(
+    SELECT 
+        job_id,
+        job_title,
+        salary_year_avg,
+        job_posted_date,
+        name as company_name
+    FROM job_postings_fact
+    LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+    WHERE job_title_short LIKE '%Data Analyst%' AND 
+    job_location = 'Anywhere' AND  
+    salary_year_avg IS NOT NULL
+    ORDER BY salary_year_avg DESC
+)
+
+SELECT (top_paying_jobs.*),
+       skills
+FROM top_paying_jobs
+INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+ORDER BY salary_year_avg DESC
+LIMIT 30; 
+
+```
+Insights
+Top-paying roles consistently require SQL + Python as core skills, paired with visualization tools (Tableau, Power BI) and cloud platforms (Azure, AWS, Snowflake, Databricks).
+Director and Principal-level positions demand broader stacks, including DevOps and collaboration tools such as Jenkins, Bitbucket, Jira, Confluence, and GitLab.
+Senior remote Data Analyst jobs in 2023 favored modern data engineering skills (PySpark, Pandas, NumPy, Go) alongside traditional analytics tools.
 
 
 
