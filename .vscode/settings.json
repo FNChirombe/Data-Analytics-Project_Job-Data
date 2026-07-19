@@ -20,5 +20,10 @@
             "database": "sql_course",
             "username": "postgres"
         }
+    ],
+    "projectManager.git.baseFolders": [
+        "Analyst Hive",
+        "SQL Lessons",
+        "C:\\Users\\funga\\OneDrive\\C++\\Desktop\\Analyst Hive"
     ]
 }
