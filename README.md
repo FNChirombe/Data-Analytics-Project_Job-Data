@@ -1,7 +1,7 @@
 # SQL Project
 
 # - Introduction
-Join me as I dive into the data job market and explore top paying roles, in-demand skills, an analysis on high demand vs high salary with a focus on data analyst jobs.
+Join me as I dive into the data job market and explore top paying roles, in-demand skills, an analysis on high demand vs high salary with a focus on data analyst jobs. Data was pulled from [lukeb.co/sql_project_csvs] and uploaded into PostgreSQL. 
 SQL queries: Please find them here: [project_sql folder](/project_sql/)
 
 # - Background
